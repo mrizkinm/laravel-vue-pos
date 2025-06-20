@@ -338,13 +338,7 @@ const closeViewModal = () => {
 
 const onSubmitted = () => {
     console.log('Purchase submitted');
-    router.get(route('purchases.index'), currentFilters.value, {
-        preserveState: true,
-        preserveScroll: true,
-        onSuccess: () => {
-            closeModal();
-        }
-    });
+    closeModal();
 };
 
 const formatDate = (date) => {
