@@ -61,7 +61,7 @@ A modern Point of Sale (POS) system built with Laravel, Vue.js, and Inertia.js. 
 
 1. Clone the repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/mrizkinm/laravel-vue-pos.git
 cd laravel-vue-pos
 ```
 
@@ -116,7 +116,7 @@ npm run dev
 
 ## Usage
 
-1. Access the application at `http://localhost:8000`
+1. Access the application at `http://127.0.0.1:8000`
 2. Login with your credentials
 3. Start managing your business through the intuitive dashboard
 
