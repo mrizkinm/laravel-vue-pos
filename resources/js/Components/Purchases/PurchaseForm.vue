@@ -338,16 +338,16 @@ const submit = () => {
     form.shipping = parseFloat(form.shipping) || 0;
     form.paid_amount = parseFloat(form.paid_amount) || 0;
 
-    const formData = {
-        supplier_id: form.supplier_id || null,
-        items: transformedItems,
-        tax: form.tax,
-        discount: form.discount,
-        shipping: form.shipping,
-        paid_amount: form.paid_amount,
-        payment_method: form.payment_method,
-        note: form.note || ''
-    };
+    // const formData = {
+    //     supplier_id: form.supplier_id || null,
+    //     items: transformedItems,
+    //     tax: form.tax,
+    //     discount: form.discount,
+    //     shipping: form.shipping,
+    //     paid_amount: form.paid_amount,
+    //     payment_method: form.payment_method,
+    //     note: form.note || ''
+    // };
 
     // console.log('Final FormData:', form);
     // return;

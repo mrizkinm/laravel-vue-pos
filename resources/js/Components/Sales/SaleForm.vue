@@ -383,16 +383,16 @@ const processSale = () => {
     form.paid_amount = parseFloat(form.paid_amount) || 0;
 
     // Ensure all required fields are present
-    const formData = {
-        customer_id: form.customer_id || null,
-        items: transformedItems,
-        tax: form.tax,
-        discount: form.discount,
-        shipping: form.shipping,
-        paid_amount: form.paid_amount,
-        payment_method: form.payment_method,
-        note: form.note || '',
-    };
+    // const formData = {
+    //     customer_id: form.customer_id || null,
+    //     items: transformedItems,
+    //     tax: form.tax,
+    //     discount: form.discount,
+    //     shipping: form.shipping,
+    //     paid_amount: form.paid_amount,
+    //     payment_method: form.payment_method,
+    //     note: form.note || '',
+    // };
 
     // console.log(form);
     // return;
